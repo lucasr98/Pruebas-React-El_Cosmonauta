@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Pruebas-React-El_Cosmonauta/static/css/main.a257d176.css",
-    "main.js": "/Pruebas-React-El_Cosmonauta/static/js/main.7b557ceb.js",
+    "main.css": "/Pruebas-React-El_Cosmonauta/static/css/main.f6446b01.css",
+    "main.js": "/Pruebas-React-El_Cosmonauta/static/js/main.cdd87d3d.js",
     "static/js/787.716eef48.chunk.js": "/Pruebas-React-El_Cosmonauta/static/js/787.716eef48.chunk.js",
     "static/media/8k_earth_daymap.jpg": "/Pruebas-React-El_Cosmonauta/static/media/8k_earth_daymap.54672c1f3ba121d80470.jpg",
     "index.html": "/Pruebas-React-El_Cosmonauta/index.html",
-    "main.a257d176.css.map": "/Pruebas-React-El_Cosmonauta/static/css/main.a257d176.css.map",
-    "main.7b557ceb.js.map": "/Pruebas-React-El_Cosmonauta/static/js/main.7b557ceb.js.map",
+    "main.f6446b01.css.map": "/Pruebas-React-El_Cosmonauta/static/css/main.f6446b01.css.map",
+    "main.cdd87d3d.js.map": "/Pruebas-React-El_Cosmonauta/static/js/main.cdd87d3d.js.map",
     "787.716eef48.chunk.js.map": "/Pruebas-React-El_Cosmonauta/static/js/787.716eef48.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a257d176.css",
-    "static/js/main.7b557ceb.js"
+    "static/css/main.f6446b01.css",
+    "static/js/main.cdd87d3d.js"
   ]
 }
