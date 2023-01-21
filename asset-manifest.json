@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Pruebas-React-El_Cosmonauta/static/css/main.531895cb.css",
-    "main.js": "/Pruebas-React-El_Cosmonauta/static/js/main.5fe81c69.js",
+    "main.css": "/Pruebas-React-El_Cosmonauta/static/css/main.c4db29d0.css",
+    "main.js": "/Pruebas-React-El_Cosmonauta/static/js/main.5abacf91.js",
     "static/js/787.716eef48.chunk.js": "/Pruebas-React-El_Cosmonauta/static/js/787.716eef48.chunk.js",
     "static/media/2k_earth_clouds.jpg": "/Pruebas-React-El_Cosmonauta/static/media/2k_earth_clouds.c9561a53e334a064e25d.jpg",
     "static/media/2k_earth_daymap.jpg": "/Pruebas-React-El_Cosmonauta/static/media/2k_earth_daymap.981cc3e3660e809249a3.jpg",
     "static/media/2k_stars_milky_way.jpg": "/Pruebas-React-El_Cosmonauta/static/media/2k_stars_milky_way.9704bf4476a8273d149a.jpg",
     "index.html": "/Pruebas-React-El_Cosmonauta/index.html",
-    "main.531895cb.css.map": "/Pruebas-React-El_Cosmonauta/static/css/main.531895cb.css.map",
-    "main.5fe81c69.js.map": "/Pruebas-React-El_Cosmonauta/static/js/main.5fe81c69.js.map",
+    "main.c4db29d0.css.map": "/Pruebas-React-El_Cosmonauta/static/css/main.c4db29d0.css.map",
+    "main.5abacf91.js.map": "/Pruebas-React-El_Cosmonauta/static/js/main.5abacf91.js.map",
     "787.716eef48.chunk.js.map": "/Pruebas-React-El_Cosmonauta/static/js/787.716eef48.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.531895cb.css",
-    "static/js/main.5fe81c69.js"
+    "static/css/main.c4db29d0.css",
+    "static/js/main.5abacf91.js"
   ]
 }
