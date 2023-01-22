@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: $font-rubik;
+}
+
+:root{
+	font-size: 100%;
+}
+
+html, body{
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: $color-a1;
+}
+
+.App{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.pages{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: $size-r;
+	width: 100%;
+
+	&__container{
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: $size-r;
+		background-color: $color-e1;
+		border-radius: $size-l2;
+		padding: $size-s2 $size-r;
+
+	}
+
+	&__button{
+
+		@include centrado(row);
+		border: none;
+		outline: none;
+		background-color: transparent;
+		cursor: pointer;
+
+		svg{
+
+			color: $color-b1;
+			font:{
+
+
+				size: $size-l2;
+
+			}
+
+		}
+
+	}
+
+	&__number{
+
+		color: $color-b1;
+		font:{
+
+			size: $size-r;
+			weight: 100;
+
+		}
+
+	}
+
+}
+
+.paragraph{
+
+	display: flex;
+	flex-direction: column;
+	gap: $size-r;
+
+	h3{
+
+		font:{
+
+			family: $font-tomorrow;
+			size: $size-r;
+			weight: 700;
+
+		}
+
+	}
+
+	p{
+
+		font:{
+
+			size: $size-r * .8;
+			weight: 400;
+
+		}
+
+	}
+
+}

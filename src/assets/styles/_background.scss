@@ -1,0 +1,95 @@
+$escala-tierra: 20rem;
+
+@mixin spinMask($time, $url){
+
+	position: absolute;
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	background-image: url($url);
+	background-size: cover;
+	animation: spin $time linear infinite;
+
+}
+
+.bg{
+
+	background: {
+
+		image: url('../images/2k_stars_milky_way.jpg');
+		position: center;
+		size: cover;
+		repeat: no-repeat;
+
+	}
+
+	top: 0;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: $z_index-b;
+
+	&__earth{
+
+		position: absolute;
+		rotate: -23deg;
+		margin: auto;
+		border-radius: 50%;
+		filter: brightness(1.2) contrast(110%);
+
+		/*
+		position: absolute;
+		top: 50vh;
+		rotate: 23deg;
+		margin: auto;
+		border-radius: 50%;
+		filter: brightness(1.2) contrast(110%);
+		*/
+
+		&::before{
+			position: absolute;
+			border-radius: 100%;
+			filter: blur(20px);
+			content: '';
+			width: 100%;
+			height: 100%;
+			background: linear-gradient(to right, rgb(39.84, 151.06, 215.16), rgba(39.84, 151.06, 215.16, .1), transparent);
+		}
+
+		&--texture{
+			@include spinMask(300s, '../images/2k_earth_daymap.jpg');
+			filter: saturate(65%);
+		}
+
+		&--clouds{
+			@include spinMask(200s, '../images/2k_earth_clouds.jpg');
+			mix-blend-mode: screen;
+			opacity: .5;
+		}
+
+		&--mask{
+			background: linear-gradient(to right, transparent, rgba(0, 0, 0, .85), rgba(0, 0, 0, 1));
+			border-radius: 100%;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			box-shadow: $escala-tierra * 0.0625 $escala-tierra * 0.0625 $escala-tierra * -0.15 $escala-tierra * -0.0625 #000 inset;
+		}
+		
+		@keyframes spin {
+			
+			0%{
+				background-position-x: 0;
+			}
+			100%{
+				background-position-x: 100% * -2;
+			}
+
+		}
+
+	}
+
+}

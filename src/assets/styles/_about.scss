@@ -1,0 +1,171 @@
+.about{
+
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: $size-l1;
+
+}
+
+.comment__text{
+
+	font:{
+
+		size: $size-r * .8;
+		weight: 100;
+		style: italic;
+
+	}
+
+	a{
+
+		text-decoration: none;
+		color: $color-f1;
+		font-weight: 700;
+
+	}
+
+}
+
+.form{
+
+	display: flex;
+	flex-direction: column;
+	gap: $size-r;
+	width: 100%;
+	background-color: $color-b1;
+	border-radius: $size-r;
+	box-shadow: .5rem .1rem $size-r .1rem rgba(0, 0, 0, .25);
+	padding: $size-l1;
+
+	&__input{
+
+		display: flex;
+		gap: $size-r;
+		border-radius: $size-s2;
+		padding: $size-l2 $size-l1 $size-r $size-l1;
+		background-color: rgba(0, 0, 0, .75);
+		backdrop-filter: blur($size-s1);
+		color: $color-b1;
+		white-space: nowrap;
+		font:{
+
+			size: $size-r;
+			weight: 400;
+
+		}
+
+		input{
+
+			position: relative;
+			width: 100%;
+			background-color: transparent;
+			border: none;
+			outline: none;
+			color: $color-b1;
+			border-bottom: .1em solid transparent;
+			padding-bottom: .1em;
+			font:{
+
+				size: $size-r;
+				weight: 100;
+
+			}
+
+			&:focus{
+
+				border-bottom: .1em solid $color-c1;
+				padding-bottom: .1em;
+
+			}
+
+			&:focus ~ i, &:valid ~ i{
+
+				font-size: $size-r * .8;
+				transform: translateY(-$size-s3);
+
+			}
+
+		}
+
+		i{
+
+			position: absolute;
+			top: 0;
+			padding: $size-l1 0;
+			transition: all .25s ease-in-out;
+
+		}
+
+	}
+
+	&__message{
+
+		border-radius: $size-s2;
+		padding: $size-l2 $size-l1 $size-r $size-l1;
+		background-color: rgba(0, 0, 0, .75);
+		backdrop-filter: blur($size-s1);
+		color: $color-b1;
+		display: flex;
+		flex-direction: column;
+
+		i{
+
+			position: absolute;
+			top: 0;
+			padding: $size-l1 0;
+			transition: all .25s ease-in-out;
+
+		}
+
+		textarea{
+
+			background-color: transparent;
+			color: $color-b1;
+			height: $size-r * 8;
+			resize: none;
+			outline: none;
+			border: none;
+			font:{
+
+				size: $size-r;
+				weight: 100;
+
+			}
+
+			&:focus ~ i, &:valid ~ i{
+
+				font-size: $size-r * .8;
+				transform: translateY(-$size-s3);
+
+			}
+
+		}
+
+	}
+
+	&__submit{
+
+		border: none;
+		border-radius: $size-s2;
+		padding: $size-r $size-l1;
+		background-color: $color-e1;
+		color: $color-b1;
+		cursor: pointer;
+		font:{
+
+			size: $size-r;
+			weight: 400;
+
+		}
+		transition: background-color, .5s ease-in-out;
+
+		&:hover{
+
+			background-color: $color-c1;
+
+		}
+
+	}
+
+}

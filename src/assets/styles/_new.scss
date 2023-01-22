@@ -1,0 +1,172 @@
+.new{
+
+	display: flex;
+	flex-direction: column;
+	gap: $size-l3;
+
+	&__container{
+
+		display: flex;
+		flex-direction: column;
+		gap: $size-r;
+
+	}
+
+	&__date{
+
+		text-align: right;
+		padding: $size-l2 0;
+		font:{
+
+			size: $size-r * .8;
+			weight: 100;
+			style: italic;
+
+		}
+
+	}
+
+	&__title{
+
+		color: $color-c1;
+		font:{
+
+			family: $font-tomorrow;
+			size: $size-l1;
+			weight: 700;
+
+		}
+
+	}
+
+	&__img{
+
+		position: relative;
+		width: 100%;
+		max-width: 540px;
+		max-height: 540px;
+		display: flex;
+		flex-direction: column;
+
+		img{
+
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+
+		}
+
+		figcaption{
+
+			opacity: 0;
+			position: absolute;
+			display: flex;
+			align-items: flex-end;
+			bottom: 0;
+			background: linear-gradient(to top, $color-a1, transparent);
+			height: 100%;
+			width: 100%;
+			padding: $size-s2 $size-r;
+			color: $color-b1;
+			font:{
+
+				size: $size-s3;
+				weight: 100;
+				style: italic;
+
+			}
+			transition: opacity, .5s ease-in-out;
+
+			&:hover{
+
+				opacity: 1;
+
+			}
+
+		}
+
+	}
+
+	&__subtitle{
+
+		font:{
+
+			size: $size-r;
+			weight: 700;
+
+		}
+
+	}
+
+	&__paragraph{
+
+		font:{
+
+			size: $size-r;
+			weight: 100;
+
+		}
+
+	}
+
+	.button{
+
+		display: flex;
+		justify-content: center;
+		width: 100%;
+
+		&__container{
+
+			width: $size-r * 11;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: $size-s2;
+			border: none;
+			outline: .1rem solid $color-e1;
+			background-color: transparent;
+			border-radius: $size-l2;
+			padding: $size-s2 $size-r;
+			cursor: pointer;
+			transition: background-color, outline, color, .5s ease-in-out;
+
+			svg{
+
+				color: $color-e1;
+				font:{
+
+
+					size: $size-l2;
+
+				}
+				transition: color, .5s ease-in-out;
+
+			}
+
+			&:hover{
+
+				background-color: $color-c1;
+				outline: none;
+				color: $color-b1;
+
+			}
+
+			&:hover > svg, &:hover > .button__text{
+
+				color: $color-b1;
+
+			}
+
+		}
+
+		&__text{
+
+			font-size: $size-r;
+			color: $color-e1;
+			transition: color, .5 ease-in-out;
+
+		}
+
+	}
+
+}

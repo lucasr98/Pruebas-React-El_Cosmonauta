@@ -1,0 +1,46 @@
+$color-a1: rgba(17, 17, 17, 1);
+$color-a1_75: rgba(17, 17, 17, .75);
+$color-a1_50: rgba(17, 17, 17, .5);
+$color-a1_25: rgba(17, 17, 17, .25);
+$color-b1: rgba(255, 255, 255, 1);
+$color-b1_75: rgba(255, 255, 255, .75);
+$color-b1_50: rgba(255, 255, 255, .5);
+
+$color-c1: rgb(241.05, 191.84, 45.82);
+$color-e1: #283558;
+$color-f1: rgb(240.99, 14.011, 84.064);
+
+$font-rubik: 'Rubik', sans-serif;
+$font-space_mono: 'Space Mono', monospace;
+$font-tomorrow: 'Tomorrow', sans-serif;
+
+$size-s1: .25rem;
+$size-s2: .5rem;
+$size-s3: .75rem;
+$size-r: 1rem;
+$size-l1: 1.5rem;
+$size-l2: 2rem;
+$size-l3: 3rem;
+
+$z_index-b: -1000;
+$z_index-f: 1000;
+
+@mixin centrado($flex-direction: column, $gap: 0){
+
+	display: flex;
+	flex-direction: $flex-direction;
+	justify-content: center;
+	align-items: center;
+	gap: $gap;
+
+}
+
+@mixin fontP($font-rubik, $weight: regular, $lh: 1rem){
+
+	font-family: $font-rubik;
+	font-weight: $weight;
+	line-height: $lh;
+
+}
+
+@import 'default', 'background', 'header', 'main', 'sidebar', 'news', 'new', 'faq', 'about', 'footer';

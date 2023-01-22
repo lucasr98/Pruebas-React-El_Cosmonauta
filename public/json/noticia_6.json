@@ -1,0 +1,15 @@
+{
+	"img": "https://media.cdn.eldestapeweb.com/eldestape/102022/1667183763735/sistema-solar-jpg..webp?cw=770&ch=440&extw=jpg",
+	"alt": "simulación de un conjunto de estrellas",
+	"title": "¿Qué es el sistema solar y cómo se formó?",
+	"text": "Las antiguas civilizaciones desconocían la existencia del Sistema Solar y no comprendían mucho más allá de lo que los rodeaba. Con los años, ya sea por experiencia o curiosidad, comenzaron con suposiciones místicas sobre lo que veían en el cielo.",
+	"date": [30,10,22],
+	"tags": ["sol", "origen", "nube"],
+	"content": [
+		"Luego, el filósofo griego Aristarco de Samos sentó un precedente sobre la idea de un sistema basado en el Sol. Pero, Nicolás Copérnico fue quien desarrolló un sistema heliocéntrico.",
+		"Hoy, ya sabemos que el Sistema Solar es un sistema planetario cuya estrella central es el Sol. Y, alrededor de este, orbitan o giran varios planetas, planetas enanos y otros cuerpos celestes por efecto de la fuerza de gravedad.",
+		"El sistema solar pertenece a la galaxia llamada Vía Láctea. Esta se encuentra constituida por miles de millones de estrellas situadas a lo largo de un disco plano de 100.000 años luz.",
+		"La estrella que da forma a todo el sistema planetario es el Sol. Este ocupa el centro de un enorme disco de material que se extiende por más de 30.000 millones de kilómetros.",
+		"El Sol representa el 99,86% de la masa del sistema solar y es la estrella más cercana a la Tierra. Se calcula que el Sol se formó hace unos 5000 millones de años y que está en la mitad de su vida."
+	]
+}

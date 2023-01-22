@@ -1,0 +1,146 @@
+.footer{
+
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: $color-e1;
+	padding: $size-l1;
+
+	&__container{
+
+		width: 100%;
+		max-width: 1180px;
+		display: flex;
+		flex-direction: column;
+		gap: $size-l2;
+
+	}
+
+	.button{
+
+		display: flex;
+		justify-content: flex-end;
+		width: 100%;
+
+		&__container{
+
+			width: $size-r * 11;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: $size-s2;
+			border: none;
+			outline: .1rem solid rgba(255, 255, 255, 0.25);
+			background-color: transparent;
+			border-radius: $size-l2;
+			padding: $size-s2 $size-r;
+			text-decoration: none;
+
+		}
+
+		&__text{
+
+			font-size: $size-r;
+			color: $color-b1;
+
+		}
+
+		svg{
+
+			color: $color-b1;
+			font:{
+
+
+				size: $size-l2;
+
+			}
+
+		}
+
+	}
+
+	.socials{
+
+		display: flex;
+		flex-direction: column;
+		gap: $size-l1;
+
+		&__title{
+
+			color: $color-b1;
+			text-transform: uppercase;
+			border-bottom: .1em solid $color-c1;
+			padding-bottom: .1em;
+			letter-spacing: .05em;
+			font:{
+
+				size: $size-r;
+				family: $font-space_mono;
+				weight: 700;
+
+			}
+
+		}
+
+		&__container{
+
+			display: flex;
+			flex-direction: column;
+
+		}
+
+		&__item{
+
+			list-style: none;
+
+			a{
+
+				display: flex;
+				align-items: center;
+				gap: $size-r;
+				text-decoration: none;
+				color: $color-b1;
+				font-size: $size-r * 0.8;
+				letter-spacing: .1em;
+				padding: $size-s2 0;
+				transition: color, .25s ease-in-out;
+
+				svg{
+
+					font-size: $size-l1;
+
+				}
+
+				&:hover{
+
+					color: $color-c1;
+
+				}
+
+			}
+
+		}
+
+	}
+
+	&__text{
+
+		color: $color-b1;
+		line-height: 1.25em;
+		font:{
+
+			size: $size-s3;
+			weight: 100;
+
+		}
+
+		a{
+
+			text-decoration: none;
+			color: $color-c1;
+
+		}
+
+	}
+
+}

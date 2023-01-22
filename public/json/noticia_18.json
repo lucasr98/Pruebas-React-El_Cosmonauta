@@ -1,0 +1,14 @@
+{
+	"img": "https://ichef.bbci.co.uk/news/800/cpsprodpb/11FEE/production/_128101737_d0997796-e311-4aa6-8c4b-db15bf7b4d0c.jpg",
+	"alt": "Mapa de la Vía Lactea",
+	"title": "Astrónomos identifican el 'viejo y pobre corazón de la Vía Láctea'",
+	"text" :"Un equipo de investigadores del Instituto Max Planck de Astronomía (MPIA) identificó, en las regiones centrales de nuestra galaxia, el 'pobre y viejo corazón de la Vía Láctea'.",
+	"date": [22,12,22],
+	"tags": ["galaxia", "via lactea"],
+	"content": [
+	    "Estas fueron las palabras que emplearon para referirse a una población de estrellas que se formaron en la historia temprana de la Vía Láctea, hace más de 12.500 millones de años.",
+	    "Los astrónomos hicieron este descubrimiento analizando la información más reciente publicada por la misión Gaia de la Agencia Espacial Europea, utilizando una red neural para extraer la metalicidad de dos millones de estrellas brillantes gigantes en las regiones internas de nuestra galaxia.",
+	    "La metalicidad es la cantidad de elementos químicos más pesados que el helio que contiene la atmósfera de la estrella (cuánto más baja es su metalicidad, más antigua es la estrella).",
+	    "En un mapa del cielo, estas estrellas parecen estar concentradas alrededor del centro galáctico."
+	]
+}

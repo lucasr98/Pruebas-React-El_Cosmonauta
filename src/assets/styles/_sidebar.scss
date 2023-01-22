@@ -1,0 +1,171 @@
+.sidebar{
+
+	display: none;
+    flex-direction: column;
+	gap: $size-l2;
+	padding: $size-r 0;
+	width: 300px;
+	height: 100%;
+	outline: rgba(0, 0, 0, .25);
+	border-radius: $size-r;
+	box-shadow: .5rem .1rem $size-r .1rem rgba(0, 0, 0, .25);
+
+	.socials{
+
+		display: flex;
+		flex-direction: column;
+		gap: $size-l1;
+
+		&__title{
+
+			padding: 0 $size-r 0 $size-r;
+
+			h4{
+
+				color: $color-a1;
+				text-transform: uppercase;
+				border-bottom: .1em solid $color-c1;
+				padding-bottom: .1em;
+				letter-spacing: .05em;
+				font:{
+
+					size: $size-r;
+					family: $font-space_mono;
+					weight: 700;
+
+				}	
+
+			}
+
+		}
+
+		&__container{
+
+			display: flex;
+			flex-direction: column;
+
+		}
+
+		&__item{
+
+			list-style: none;
+			padding: $size-s2 $size-r;
+			transition: background-color, .25s ease-in-out;
+
+			&:hover{
+
+				background-color: $color-e1;
+
+			}
+
+			&:hover > a {
+
+				color: $color-b1;
+
+			}
+
+			a{
+
+				display: flex;
+				align-items: center;
+				gap: $size-r;
+				text-decoration: none;
+				color: $color-a1;
+				font-size: $size-r * 0.8;
+				letter-spacing: .1em;
+				transition: color, .25s ease-in-out;
+
+				svg{
+
+					font-size: $size-l1;
+
+				}
+
+			}
+
+		}
+
+	}
+
+	.search{
+
+		position: sticky;
+		top: 0;
+		width: 100%;
+		display: flex;
+		padding: $size-s2 $size-r;
+
+		&__container{
+
+			width: 100%;
+			max-width: 540px;
+			display: flex;
+			gap: $size-r;
+			align-items: center;
+			border-radius: $size-s2;
+			outline: $size-r * .1 solid $color-a1;
+			padding: $size-s2 $size-l1;
+
+		}
+
+		&__input{
+
+			background-color: transparent;
+			width: 100%;
+			height: 100%;
+			outline: none;
+			border: none;
+			font-size: $size-r;
+			color: $color-a1;
+
+			&::placeholder{
+
+				color: $color-a1;
+				font:{
+
+					style: italic;
+					weight: 100;
+
+				}
+
+			}
+
+		}
+
+		&__separator{
+
+			width: $size-r * .1;
+			height: $size-r;
+			background-color: $color-a1;
+
+		}
+
+		&__icon{
+
+			background-color: transparent;
+			border: none;
+			outline: none;
+			cursor: pointer;
+
+			svg{
+
+				color: $color-a1;
+				font-size: $size-r;
+
+			}
+
+		}
+
+	}
+
+}
+
+@media only screen and (min-width: 540px){
+
+  .sidebar{
+
+    display: flex !important;
+
+  }
+
+}
